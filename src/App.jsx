@@ -1,20 +1,14 @@
+import Footer from "./component/global/footer.jsx/Footer"
+import Header from "./component/global/header/Header"
 
 function App() {
 
+
   return (
     <>
-    <div className=" white bg-red-400">
-      <h1 className=" border-blue-500 bor text-3xl font-bold underline">
-      Hello world!
-    </h1>
-
-    
-      <h1 className=" border-blue-500 bor text-3xl font-bold underline">
-      Hello world!
-    </h1>
-      <h1 className=" border-blue-500 bor text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className=" h-screen w-full white   ">
+    <Header/>
+    <Footer/>
     </div>
         
     </>
